@@ -1,6 +1,6 @@
-<p align="center"><img src="logo.png" alt="rails-7" width="120"></p>
-
 # Ruby on Rails [![Maintained by StackBlaze](https://img.shields.io/badge/maintained%20by-StackBlaze-blue)](https://stackblaze.com) [![Weekly Updates](https://img.shields.io/badge/updates-weekly-green)](https://github.com/stackblaze-templates/rails-7/actions) [![License](https://img.shields.io/github/license/stackblaze-templates/rails-7)](LICENSE) [![Deploy on StackBlaze](https://img.shields.io/badge/Deploy%20on-StackBlaze-orange)](https://stackblaze.com)
+
+<p align="center"><img src="logo.png" alt="rails-7" width="120"></p>
 
 A full-stack Ruby web framework optimized for developer happiness. Rails follows convention over configuration and includes everything needed to build modern web apps.
 
