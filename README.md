@@ -1,19 +1,12 @@
-# Ruby on Rails
+<p align="center"><img src="logo.png" alt="rails-7" width="120"></p>
 
-<p align="center"><img src="logo.png" alt="Ruby on Rails" width="120"></p>
-
-
-[![Maintained by StackBlaze](https://img.shields.io/badge/maintained%20by-StackBlaze-blue)](https://stackblaze.com)
-[![Weekly Updates](https://img.shields.io/badge/updates-weekly-green)](https://github.com/stackblaze-templates/rails-7/actions)
-[![License](https://img.shields.io/github/license/stackblaze-templates/rails-7)](LICENSE)
+# Ruby on Rails [![Maintained by StackBlaze](https://img.shields.io/badge/maintained%20by-StackBlaze-blue)](https://stackblaze.com) [![Weekly Updates](https://img.shields.io/badge/updates-weekly-green)](https://github.com/stackblaze-templates/rails-7/actions) [![License](https://img.shields.io/github/license/stackblaze-templates/rails-7)](LICENSE) [![Deploy on StackBlaze](https://img.shields.io/badge/Deploy%20on-StackBlaze-orange)](https://stackblaze.com)
 
 A full-stack Ruby web framework optimized for developer happiness. Rails follows convention over configuration and includes everything needed to build modern web apps.
 
 > **Credits**: Built on [Ruby on Rails](https://rubyonrails.org) by [Rails Core Team](https://github.com/rails). All trademarks belong to their respective owners.
 
 ## Deploy on StackBlaze
-
-[![Deploy on StackBlaze](https://img.shields.io/badge/Deploy%20on-StackBlaze-orange)](https://stackblaze.com)
 
 This template includes a `stackblaze.yaml` for one-click deployment on [StackBlaze](https://stackblaze.com).
 
