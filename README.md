@@ -1,15 +1,35 @@
-# Deploy a Ruby on Rails App on Stackblaze
+# Ruby on Rails
 
-This is a sample [Ruby on Rails](https://rubyonrails.org/) app set up to work with on Stackblaze.
+[![Maintained by StackBlaze](https://img.shields.io/badge/maintained%20by-StackBlaze-blue)](https://stackblaze.com)
+[![Weekly Updates](https://img.shields.io/badge/updates-weekly-green)](https://github.com/stackblaze-templates/rails-7/actions)
+[![License](https://img.shields.io/github/license/stackblaze-templates/rails-7)](LICENSE)
 
-The sample app is deployed at https://rails.onstackblaze.com.
+A full-stack Ruby web framework optimized for developer happiness. Rails follows convention over configuration and includes everything needed to build modern web apps.
 
-## Deployment on Stackblaze
+> **Credits**: Built on [Ruby on Rails](https://rubyonrails.org) by [Rails Core Team](https://github.com/rails). All trademarks belong to their respective owners.
 
-Fork the repo and use the button below to deploy this app one click.
+## Deploy on StackBlaze
 
-<a href="https://stackblaze.com/deploy" referrerpolicy="no-referrer-when-downgrade" rel="nofollow">
-  <img src="https://stackblaze.com/images/deploy-to-stackblaze-button.svg" alt="Deploy to Stackblaze" />
-</a>
+[![Deploy on StackBlaze](https://img.shields.io/badge/Deploy%20on-StackBlaze-orange)](https://stackblaze.com)
 
-To deploy manually, see the guide at https://stackblaze.com/docs/deploy-rails.
+This template includes a `stackblaze.yaml` for one-click deployment on [StackBlaze](https://stackblaze.com).
+
+## Local Development
+
+```bash
+docker compose up
+```
+
+See the project files for configuration details.
+
+---
+
+### Maintained by [StackBlaze](https://stackblaze.com)
+
+This template is actively maintained by StackBlaze. We perform **weekly automated checks** to ensure:
+
+- **Up-to-date dependencies** — frameworks, libraries, and base images are kept current
+- **Security scanning** — continuous monitoring for known vulnerabilities and CVEs
+- **Best practices** — configurations follow current recommendations from upstream projects
+
+Found an issue? [Open a ticket](https://github.com/stackblaze-templates/rails-7/issues).
