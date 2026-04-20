@@ -18,6 +18,20 @@ docker compose up
 
 See the project files for configuration details.
 
+## Security & Production Configuration
+
+Before deploying to production, you **must** set the following environment variables:
+
+| Variable | Description |
+|---|---|
+| `SECRET_KEY_BASE` | Secret key for encrypting cookies and sessions. Generate with `rails secret`. |
+| `RAILS_MASTER_KEY` | Master key to decrypt `config/credentials.yml.enc`. See `config/master.key` (never commit this file). |
+| `DATABASE_URL` | Full PostgreSQL connection string (e.g. `postgres://user:pass@host/dbname`). |
+
+> **Warning**: The app enforces SSL in production (`config.force_ssl = true`). Ensure your hosting environment terminates TLS before the Rails process, or configure your load balancer/proxy accordingly.
+
+> **Warning**: `config.require_master_key = true` is enabled. The app will refuse to start in production if `RAILS_MASTER_KEY` is not set or `config/master.key` is absent.
+
 ---
 
 ### Maintained by [StackBlaze](https://stackblaze.com)
