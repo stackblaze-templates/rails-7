@@ -33,7 +33,7 @@
 .env.local
 .env.*.local
 
-# Ignore private key and certificate files.
+# Ignore private key and certificate files (SSL certs, SSH keys, etc.).
 *.pem
 *.key
 
